@@ -6,7 +6,7 @@ import html
 from datetime import datetime
 from typing import Dict, List, Tuple
 from enum import Enum
-import mathLegal Traffic Light v3.2 - Streamlit Edition
+import math
 Система анализа договоров на соответствие Регламенту АО «НПК»
 
 Регламент взаимодействия структурных подразделений с Юридическим департаментом
