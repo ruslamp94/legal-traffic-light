@@ -9,6 +9,11 @@
 """
 
 import streamlit as st
+
+# Отключаем file watcher для Streamlit Cloud (проблема inotify)
+import os
+os.environ["STREAMLIT_SERVER_ENABLE_XSRF_PROTECTION"] = "false"
+os.environ["STREAMLIT_LOGGER_LEVEL"] = "warning"
 import re, json, hashlib, io, time
 from datetime import datetime, date
 from typing import Dict, List, Tuple, Optional
