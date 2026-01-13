@@ -18,3 +18,5 @@ toolbarMode = "minimal"
 [server]
 maxUploadSize = 200
 enableXsrfProtection = true
+fileWatcherType = "none"
+runOnSave = false
